@@ -1,0 +1,295 @@
+:root {
+  /* Color Palette - Warm Ivory, Deep Navy, Telangana Dark Green, Restrained Saffron Accent */
+  --bg-primary: #FDFBF7;
+  --bg-secondary: #F6F3EC;
+  --bg-tertiary: #EEEAE0;
+  --bg-surface: #FFFFFF;
+  --bg-navy-dark: #0A192F;
+  --bg-navy-card: #112240;
+
+  --text-primary: #1A202C;
+  --text-secondary: #4A5568;
+  --text-muted: #718096;
+  --text-light: #FDFBF7;
+  --text-light-muted: #CBD5E0;
+
+  --accent-navy: #0B2545;
+  --accent-navy-hover: #13315C;
+  --accent-green: #134E35;
+  --accent-green-hover: #0E3B28;
+  --accent-saffron: #D95D1E;
+  --accent-saffron-light: #FFF5EE;
+  --accent-gold: #C5A880;
+  --accent-gold-dark: #9A7B56;
+
+  --border-subtle: #E8E3D9;
+  --border-medium: #D5CEBF;
+  --border-focus: #0B2545;
+
+  /* Typography */
+  --font-editorial: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-telugu: 'Noto Sans Telugu', 'Gautami', 'Mandali', sans-serif;
+
+  /* Elevation / Shadows */
+  --shadow-sm: 0 1px 3px rgba(11, 37, 69, 0.05);
+  --shadow-md: 0 4px 12px rgba(11, 37, 69, 0.07);
+  --shadow-lg: 0 12px 28px rgba(11, 37, 69, 0.1);
+  --shadow-elevated: 0 20px 40px rgba(11, 37, 69, 0.12);
+
+  /* Radii - restrained, crisp editorial style (NOT oversized pill cards) */
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Max Widths */
+  --max-w-content: 1240px;
+  --max-w-readable: 820px;
+  --navbar-height: 82px;
+}
+
+[lang="te"] {
+  font-family: var(--font-telugu);
+}
+
+[lang="te"] h1,
+[lang="te"] h2,
+[lang="te"] h3,
+[lang="te"] h4 {
+  font-family: var(--font-telugu);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* Base Reset & Smooth Scroll */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--navbar-height) + 16px);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.65;
+  font-weight: 400;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: var(--max-w-content);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/* Editorial Badge */
+.editorial-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--accent-navy);
+  background-color: rgba(11, 37, 69, 0.06);
+  border: 1px solid rgba(11, 37, 69, 0.12);
+  padding: 5px 14px;
+  border-radius: var(--radius-xs);
+  margin-bottom: 14px;
+}
+
+.editorial-badge.saffron {
+  color: var(--accent-saffron);
+  background-color: var(--accent-saffron-light);
+  border-color: rgba(217, 93, 30, 0.2);
+}
+
+.editorial-badge.green {
+  color: var(--accent-green);
+  background-color: rgba(19, 78, 53, 0.08);
+  border-color: rgba(19, 78, 53, 0.2);
+}
+
+/* Section Header Typography */
+.section-header {
+  margin-bottom: 44px;
+}
+
+.section-header.centered {
+  text-align: center;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-family: var(--font-editorial);
+  font-size: 2.35rem;
+  font-weight: 700;
+  color: var(--accent-navy);
+  line-height: 1.2;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+
+[lang="te"] .section-title {
+  font-family: var(--font-telugu);
+  font-size: 2rem;
+  line-height: 1.35;
+}
+
+.section-subtitle {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* Subtle Traditional Telangana Motif Divider */
+.telangana-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.telangana-divider::before,
+.telangana-divider::after {
+  content: '';
+  height: 1px;
+  width: 48px;
+  background-color: var(--accent-gold);
+  opacity: 0.6;
+}
+
+.telangana-divider-diamond {
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg);
+  background-color: var(--accent-saffron);
+}
+
+/* Editorial Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: var(--radius-xs);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background-color: var(--accent-navy);
+  color: #FFFFFF;
+  border: 1px solid var(--accent-navy);
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-navy-hover);
+  border-color: var(--accent-navy-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(11, 37, 69, 0.15);
+}
+
+.btn-saffron {
+  background-color: var(--accent-saffron);
+  color: #FFFFFF;
+  border: 1px solid var(--accent-saffron);
+}
+
+.btn-saffron:hover {
+  background-color: #C04F16;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(217, 93, 30, 0.2);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--accent-navy);
+  border: 1px solid var(--accent-navy);
+}
+
+.btn-outline:hover {
+  background-color: rgba(11, 37, 69, 0.05);
+  transform: translateY(-1px);
+}
+
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+}
+
+/* Section Spacing */
+.section-pad {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+@media (min-width: 992px) {
+  .section-pad {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+
+/* Animations - Subtle & Natural, No AI gimmicks */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease forwards;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#0B2545" stroke="#C5A880" stroke-width="2"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#C5A880" stroke-width="1" stroke-dasharray="2 2"/>
+  <path d="M32 14 L35 22 L44 23 L37 29 L39 38 L32 33 L25 38 L27 29 L20 23 L29 22 Z" fill="#D97706" opacity="0.9"/>
+  <text x="32" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#FDFBF7" text-anchor="middle" letter-spacing="1">GVRR</text>
+</svg>
