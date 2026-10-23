@@ -114,6 +114,72 @@ Beyond her administrative contributions to public life, Smt. Gandra Jyothi is an
 
 const fallbackActivities = [
   {
+    _id: 'act-temple',
+    title: {
+      en: 'Sri Kalyana Venkateshwaraswamy Temple, Bhupalpally',
+      te: 'శ్రీ కల్యాణ వేంకటేశ్వరస్వామి దేవాలయం, భూపాలపల్లి',
+    },
+    category: 'Heritage',
+    date: '2023-05-18T00:00:00.000Z',
+    location: {
+      en: 'Bhupalpally, Jayashankar Bhupalpally District',
+      te: 'భూపాలపల్లి, జయశంకర్ భూపాలపల్లి జిల్లా',
+    },
+    builtBy: {
+      en: 'Sri Gandra Venkata Ramana Reddy & Smt. Gandra Jyothi',
+      te: 'శ్రీ గండ్ర వెంకట రమణారెడ్డి మరియు శ్రీమతి గండ్ర జ్యోతి',
+    },
+    festivals: {
+      en: 'Brahmotsavams, Sri Kalyana Utsavam, Vaikuntha Ekadashi & Dhanurmasam Celebrations',
+      te: 'వార్షిక బ్రహ్మోత్సవాలు, శ్రీ కల్యాణోత్సవం, వైకుంఠ ఏకాదశి & ధనుర్మాస విశేష పూజలు',
+    },
+    description: {
+      en: 'A sacred spiritual and architectural landmark envisioned and built by Sri Gandra Venkata Ramana Reddy and Smt. Gandra Jyothi as an enduring offering of devotion to Lord Venkateswara and the people of Bhupalpally.\n\nConstructed following traditional Dravidian stone architecture, the temple features intricately sculpted pillars, an open stone mandapam, and a consecrated golden Dhwajasthambham (flagstaff) reaching toward the sky. It stands as a revered center for spiritual rejuvenation, prayer, and cultural congregation for thousands of families across Jayashankar Bhupalpally district.\n\nThe temple annually hosts grand Brahmotsavams, celestial Sri Kalyana Utsavam (divine wedding ceremony), Vaikuntha Ekadashi, and special Dhanurmasam poojas conducted in accordance with traditional Vedic Agamas, fostering community harmony, peace, and spiritual heritage for generations.',
+      te: 'శ్రీ గండ్ర వెంకట రమణారెడ్డి మరియు శ్రీమతి గండ్ర జ్యోతి దంపతుల స్వంత సంకల్పం, భక్తి ప్రపత్తులతో భూపాలపల్లి ప్రాంత ప్రజల ఆధ్యాత్మిక ఉనికి కోసం నిర్మించిన దివ్య పుణ్యక్షేత్రం శ్రీ కల్యాణ వేంకటేశ్వరస్వామి దేవాలయం.\n\nసాంప్రదాయ ద్రావిడ శిల్పకళా రీతులతో, కనువిందు చేసే నగిషీలతో కూడిన రాతి స్తంభాలు, మహోన్నతమైన రాతి మండపం మరియు సువర్ణ ధ్వజస్తంభంతో ఈ దేవాలయం శోభిల్లుతోంది. జయశంకర్ భూపాలపల్లి జిల్లాలోని వేలాది మంది భక్తులు, కుటుంబాలకు శాంతి, భక్తి మరియు సమాజ ఐక్యతను ప్రసాదించే ఆధ్యాత్మిక కేంద్రంగా ఇది విరాజిల్లుతోంది.\n\nవైదిక ఆగమ శాస్త్రోక్తంగా ఇక్కడ ప్రతి ఏటా వైభవంగా జరిగే వార్షిక బ్రహ్మోత్సవాలు, శ్రీ కల్యాణోత్సవాలు, వైకుంఠ ఏకాదశి ఉత్తర ద్వార దర్శనం మరియు ధనుర్మాస విశేష పూజాధికాలలో వేలాది మంది భక్తులు పాల్గొని స్వామివారి కృపకు పాత్రులవుతున్నారు.',
+    },
+    imageUrl: '/images/sri-kalyana-venkateshwara-temple.png',
+    images: [
+      '/images/sri-kalyana-venkateshwara-temple.png',
+      '/images/gandra-couple-temple-pooja.jpg',
+      '/images/gandra-jyothi-temple-devotion.jpg',
+    ],
+    isFeatured: true,
+    status: 'Published',
+  },
+  {
+    _id: 'act-bathukamma',
+    title: {
+      en: 'Bathukamma Saree Distribution & Cultural Support',
+      te: 'దసరా పండుగ బతుకమ్మ చీరల పంపిణీ & సంస్కృతి సంబరాలు',
+    },
+    category: 'Welfare',
+    date: '2023-10-14T00:00:00.000Z',
+    location: {
+      en: 'Bhupalpally Assembly Constituency & Surrounding Mandals',
+      te: 'భూపాలపల్లి నియోజకవర్గం & పరిసర మండలాలు',
+    },
+    sponsor: {
+      en: 'Sponsored by Smt. Gandra Jyothi',
+      te: 'శ్రీమతి గండ్ర జ్యోతి సౌజన్యంతో',
+    },
+    tradition: {
+      en: 'Dasara Festival Season & Celebrating Telangana’s Bathukamma Tradition',
+      te: 'దసరా నవరాత్రుల వేడుకలు & తెలంగాణ బతుకమ్మ సాంప్రదాయం',
+    },
+    description: {
+      en: 'A heartfelt community-support initiative highlighting Smt. Gandra Jyothi’s contribution to sponsoring Bathukamma sarees for women during the Dasara festival season.\n\nBathukamma is the revered floral festival celebrating Telangana’s unique cultural identity, women’s deep bond with nature, and community sisterhood. Through this dedicated sponsorship, Smt. Gandra Jyothi supports women’s festive participation with honor, joy, and festive warmth.\n\nBeyond sponsoring sarees, Smt. Gandra Jyothi actively joins local women on the ground—gathering seasonal flowers, arranging the floral tiers, and celebrating together with traditional songs and folk dances, strengthening grassroots cultural heritage across the constituency.',
+      te: 'తెలంగాణ సంస్కృతికి ప్రతీకైన దసరా మరియు బతుకమ్మ పండుగ సందర్భాలలో ఆడపడుచుల ఆత్మగౌరవాన్ని గౌరవిస్తూ, పండుగ శోభను రెట్టింపు చేసేందుకు శ్రీమతి గండ్ర జ్యోతి బతుకమ్మ చీరలను ఆత్మీయంగా స్పాన్సర్ చేస్తూ వస్తున్నారు.\n\nబతుకమ్మ ప్రకృతిని, స్త్రీమూర్తిని ఆరాధించే తెలంగాణ విశిష్ట సంస్కృతికి నిదర్శనం. నియోజకవర్గంలోని మహిళలు, అక్కాచెల్లెళ్ళు పండుగను సంతోషంగా, ఉత్సాహంగా జరుపుకోవాలనే సదాశయంతో ఈ సమాజ సేవా కార్యక్రమాన్ని చేపట్టడం జరిగింది.\n\nకేవలం చీరల పంపిణీకే పరిమితం కాకుండా, శ్రీమతి గండ్ర జ్యోతి స్వయంగా గ్రామీణ మహిళలతో కలిసి తంగేడు, గునుగు, బంతి పూలతో బతుకమ్మలను పేర్చడం, బతుకమ్మను భక్తితో నెత్తిన మోయడం, కోలాటాలు ఆడుతూ సాంప్రదాయ జానపద పాటలు పాడటంలో మమేకమవుతూ సాంస్కృతిక వారసత్వాన్ని ఘనంగా చాటుతున్నారు.',
+    },
+    imageUrl: '/images/gandra-jyothi-bathukamma-celebration-head.png',
+    images: [
+      '/images/gandra-jyothi-bathukamma-celebration-head.png',
+      '/images/gandra-jyothi-bathukamma-dance.png',
+      '/images/gandra-jyothi-bathukamma-celebration.jpg',
+    ],
+    isFeatured: true,
+    status: 'Published',
+  },
+  {
     _id: 'act-1',
     title: {
       en: 'Constituency Grievance Redressal and Public Interactive Forum',
@@ -439,6 +505,74 @@ During her tenure as ZP Chairperson, she championed primary healthcare centers i
 ];
 
 const fallbackJyothiActivities = [
+  {
+    _id: 'act-jyothi-bathukamma',
+    profile: 'gandra-jyothi',
+    title: {
+      en: 'Bathukamma Saree Distribution & Cultural Support',
+      te: 'దసరా పండుగ బతుకమ్మ చీరల పంపిణీ & సంస్కృతి సంబరాలు',
+    },
+    category: 'Welfare',
+    date: '2023-10-14T00:00:00.000Z',
+    location: {
+      en: 'Bhupalpally & Warangal Rural Mandals',
+      te: 'భూపాలపల్లి మరియు వరంగల్ రూరల్ మండలాలు',
+    },
+    sponsor: {
+      en: 'Sponsored by Smt. Gandra Jyothi',
+      te: 'శ్రీమతి గండ్ర జ్యోతి సౌజన్యంతో',
+    },
+    tradition: {
+      en: 'Dasara Festival Season & Celebrating Telangana’s Bathukamma Tradition',
+      te: 'దసరా నవరాత్రుల వేడుకలు & తెలంగాణ బతుకమ్మ సాంప్రదాయం',
+    },
+    description: {
+      en: 'A heartfelt community-support initiative highlighting Smt. Gandra Jyothi’s contribution to sponsoring Bathukamma sarees for women during the Dasara festival season.\n\nBathukamma is the revered floral festival celebrating Telangana’s unique cultural identity, women’s deep bond with nature, and community sisterhood. Through this dedicated sponsorship, Smt. Gandra Jyothi supports women’s festive participation with honor, joy, and festive warmth.\n\nBeyond sponsoring sarees, Smt. Gandra Jyothi actively joins local women on the ground—gathering seasonal flowers, arranging the floral tiers, and celebrating together with traditional songs and folk dances, strengthening grassroots cultural heritage across the community.',
+      te: 'తెలంగాణ సంస్కృతికి ప్రతీకైన దసరా మరియు బతుకమ్మ పండుగ సందర్భాలలో ఆడపడుచుల ఆత్మగౌరవాన్ని గౌరవిస్తూ, పండుగ శోభను రెట్టింపు చేసేందుకు శ్రీమతి గండ్ర జ్యోతి బతుకమ్మ చీరలను ఆత్మీయంగా స్పాన్సర్ చేస్తూ వస్తున్నారు.\n\nబతుకమ్మ ప్రకృతిని, స్త్రీమూర్తిని ఆరాధించే తెలంగాణ విశిష్ట సంస్కృతికి నిదర్శనం. నియోజకవర్గంలోని మహిళలు, అక్కాచెల్లెళ్ళు పండుగను సంతోషంగా, ఉత్సాహంగా జరుపుకోవాలనే సదాశయంతో ఈ సమాజ సేవా కార్యక్రమాన్ని చేపట్టడం జరిగింది.\n\nకేవలం చీరల పంపిణీకే పరిమితం కాకుండా, శ్రీమతి గండ్ర జ్యోతి స్వయంగా గ్రామీణ మహిళలతో కలిసి తంగేడు, గునుగు, బంతి పూలతో బతుకమ్మలను పేర్చడం, బతుకమ్మను భక్తితో నెత్తిన మోయడం, కోలాటాలు ఆడుతూ సాంప్రదాయ జానపద పాటలు పాడటంలో మమేకమవుతూ సాంస్కృతిక వారసత్వాన్ని ఘనంగా చాటుతున్నారు.',
+    },
+    imageUrl: '/images/gandra-jyothi-bathukamma-celebration-head.png',
+    images: [
+      '/images/gandra-jyothi-bathukamma-celebration-head.png',
+      '/images/gandra-jyothi-bathukamma-dance.png',
+      '/images/gandra-jyothi-bathukamma-celebration.jpg',
+    ],
+    isFeatured: true,
+    status: 'Published',
+  },
+  {
+    _id: 'act-jyothi-temple',
+    profile: 'gandra-jyothi',
+    title: {
+      en: 'Sri Kalyana Venkateshwaraswamy Temple, Bhupalpally',
+      te: 'శ్రీ కల్యాణ వేంకటేశ్వరస్వామి దేవాలయం, భూపాలపల్లి',
+    },
+    category: 'Community',
+    date: '2023-05-18T00:00:00.000Z',
+    location: {
+      en: 'Bhupalpally, Jayashankar Bhupalpally District',
+      te: 'భూపాలపల్లి, జయశంకర్ భూపాలపల్లి జిల్లా',
+    },
+    builtBy: {
+      en: 'Sri Gandra Venkata Ramana Reddy & Smt. Gandra Jyothi',
+      te: 'శ్రీ గండ్ర వెంకట రమణారెడ్డి మరియు శ్రీమతి గండ్ర జ్యోతి',
+    },
+    festivals: {
+      en: 'Brahmotsavams, Sri Kalyana Utsavam, Vaikuntha Ekadashi & Dhanurmasam Celebrations',
+      te: 'వార్షిక బ్రహ్మోత్సవాలు, శ్రీ కల్యాణోత్సవం, వైకుంఠ ఏకాదశి & ధనుర్మాస విశేష పూజలు',
+    },
+    description: {
+      en: 'A sacred spiritual landmark built by Sri Gandra Venkata Ramana Reddy and Smt. Gandra Jyothi in Bhupalpally. Built in authentic Dravidian stone architecture with a golden Dhwajasthambham, providing an inspiring spiritual home for regional families and hosting annual Brahmotsavams and divine Kalyanotsavams.',
+      te: 'శ్రీ గండ్ర వెంకట రమణారెడ్డి మరియు శ్రీమతి గండ్ర జ్యోతి దంపతులు భక్తి శ్రద్ధలతో భూపాలపల్లిలో నిర్మించిన దివ్య పుణ్యక్షేత్రం. సాంప్రదాయ రాతి మండపం మరియు సువర్ణ ధ్వజస్తంభంతో వెలసిన ఈ ఆలయంలో వార్షిక బ్రహ్మోత్సవాలు మరియు శ్రీ కల్యాణోత్సవాలు అత్యంత వైభవంగా నిర్వహింపబడుతున్నాయి.',
+    },
+    imageUrl: '/images/sri-kalyana-venkateshwara-temple.png',
+    images: [
+      '/images/sri-kalyana-venkateshwara-temple.png',
+      '/images/gandra-couple-temple-pooja.jpg',
+      '/images/gandra-jyothi-temple-devotion.jpg',
+    ],
+    isFeatured: true,
+    status: 'Published',
+  },
   {
     _id: 'act-jyothi-1',
     profile: 'gandra-jyothi',
